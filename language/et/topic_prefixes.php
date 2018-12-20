@@ -23,5 +23,5 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'TOPIC_PREFIX'			=> 'Topic prefix',
+	'TOPIC_PREFIX'			=> 'Teema kategooria',
 ));
