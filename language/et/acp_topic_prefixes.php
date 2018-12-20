@@ -31,16 +31,16 @@ $lang = array_merge($lang, array(
 	'TOPIC_PREFIXES_EMPTY'		=> 'Selle foorumi jaoks kategooriad puuduvad.',
 
 	'CREATE_TOPIC_PREFIX'			=> 'Lisa uus teema kategooria',
-	'DELETE_TOPIC_PREFIX_CONFIRM'	=> 'Are you sure you want to delete the topic prefix?',
-	'TOPIC_PREFIX_DELETED'			=> 'The topic prefix has been deleted.',
+	'DELETE_TOPIC_PREFIX_CONFIRM'	=> 'Kas olete kindel, et soovite kustutada teema kategooria?',
+	'TOPIC_PREFIX_DELETED'			=> 'Teema kategooria kustutatud.',
 
 	'TOPIC_PREFIX_TOGGLE_STATE'	=> array(
-		0	=> 'Click to enable',
-		1	=> 'Click to disable',
+		0	=> 'Klikki lubatuks',
+		1	=> 'Klikki keelatuks',
 	),
 
 	// Nested set exception messages
-	'TOPIC_PREFIXES_LOCK_FAILED_ACQUIRE'	=> 'Topic prefixes extension failed to acquire a lock on the table.',
-	'TOPIC_PREFIXES_INVALID_ITEM'			=> 'The requested topic prefix does not exist.',
+	'TOPIC_PREFIXES_LOCK_FAILED_ACQUIRE'	=> 'Teema kategooria moodul ei saanud tabelis lukustust.',
+	'TOPIC_PREFIXES_INVALID_ITEM'			=> 'Soovitud teema kategooriat ei eksisteeri.',
 	'TOPIC_PREFIXES_INVALID_PARENT'			=> 'The requested topic prefix has no parent.',
 ));
