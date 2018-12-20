@@ -2,6 +2,7 @@
 /**
  *
  * Topic Prefixes extension for the phpBB Forum Software package.
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
  *
  * @copyright (c) 2016 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
@@ -22,14 +23,14 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'TOPIC_PREFIXES'			=> 'Topic prefixes',
-	'TOPIC_PREFIXES_EXPLAIN'	=> 'From this page you can manage topic prefixes for forums.',
+	'TOPIC_PREFIXES'			=> 'Teema kategooriad',
+	'TOPIC_PREFIXES_EXPLAIN'	=> 'Sellelt lehelt saate hallata teemade kategooriaid foorumitele.',
 
-	'TOPIC_PREFIX_TAG'			=> 'Prefix Tag',
-	'TOPIC_PREFIX_ENABLED'		=> 'Prefix Enabled',
-	'TOPIC_PREFIXES_EMPTY'		=> 'There are no prefixes for this forum.',
+	'TOPIC_PREFIX_TAG'			=> 'Kategooria Tag',
+	'TOPIC_PREFIX_ENABLED'		=> 'Kategooria lubatud',
+	'TOPIC_PREFIXES_EMPTY'		=> 'Selle foorumi jaoks kategooriad puuduvad.',
 
-	'CREATE_TOPIC_PREFIX'			=> 'Create a new topic prefix',
+	'CREATE_TOPIC_PREFIX'			=> 'Lisa uus teema kategooria',
 	'DELETE_TOPIC_PREFIX_CONFIRM'	=> 'Are you sure you want to delete the topic prefix?',
 	'TOPIC_PREFIX_DELETED'			=> 'The topic prefix has been deleted.',
 
